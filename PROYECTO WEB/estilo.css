@@ -1,0 +1,137 @@
+body{
+    background-color:#d9d565;
+    margin: 0;
+    margin-bottom: 4px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    background-color: #4d4bcc;
+    overflow: hidden;
+}
+
+li{
+   float: left;
+}
+
+li a{
+    border-radius: 10px;
+    font-weight:normal;
+    font-size: 25px;
+    display: block;
+    color: #f7e403;
+    text-align: left;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+li a:visited{
+    color: #020202;
+}
+
+li a:hover{
+    background-color: #16e4e4;
+}
+
+#first{
+    overflow: hidden;
+}
+
+div#menu{
+    width: 25%;
+    background-color: #fd0000;
+    float: left; 
+    border-radius: 5px;
+    box-shadow: 10px 6px 10px 6px rgba(135, 206, 235), 16px 10px 10px 12px rgba(255, 250, 250) inset, 10px 12px 12px rgba(192, 192, 192);
+}
+
+.lateral{
+    list-style-type: none;
+    margin: 2px;
+    padding: 2px;
+    background-color: #a1a786;
+    overflow: hidden;
+}
+
+#lat-1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color:#f50606;    
+}
+
+.rigth{
+    font-style: oblique;
+    font-size: x-large;
+    float: none;
+    display: block;
+    color: #FC0000;
+    text-align: initial;
+    padding: 60px 30px;
+    text-decoration: none;
+}
+
+.rigth a:visited{
+    color: rgb(320, 236, 8);
+}
+
+.rigth a:hover{
+    background-color: rgba(19, 115, 208, 0.503);
+}
+
+div#lolarock{
+    width: 55%;
+    float: left;
+    background-color:#41FC00;
+   }
+
+.fondo-3{
+   width: 100% ;
+   height: 20%;
+   display: block;
+   margin: auto;
+   padding: 8px 8px 8px 8px;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+
+footer{
+    overflow: hidden;
+    margin-top:10px;
+    width:100%;
+    height:200px;
+    background-color:#05ff01;
+}
+.logo{
+    display: block;
+    float: left;
+    width: 100%;
+    top: 120px;
+    height:120px;
+}
+
+
+.info-princ{
+    float:left;
+    color: #0c0c0c;
+    text-align: center;
+    width: 100%;
+}
+.info{
+    float: none;
+
+}
+
+.map{
+    display: block;
+    float:   end;
+    widows:  100%;
+}
